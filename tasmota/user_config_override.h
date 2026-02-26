@@ -95,8 +95,9 @@ Examples :
 #define USE_MI_ESP32
 #endif
 
+#ifndef USE_C3_BLE
 #define USE_C3_BLE // Συχνά χρειάζεται ειδικά για τον C3
-
+#endif
 
 
 #endif  // _USER_CONFIG_OVERRIDE_H_
