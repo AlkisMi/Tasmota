@@ -87,7 +87,15 @@ Examples :
 // !!! Remember that your changes GOES AT THE BOTTOM OF THIS FILE right before the last #endif !!!
 */
 
+#ifndef USE_BLE_ESP32
+#define USE_BLE_ESP32
+#endif
 
+#ifndef USE_MI_ESP32
+#define USE_MI_ESP32
+#endif
+
+#define USE_C3_BLE // Συχνά χρειάζεται ειδικά για τον C3
 
 
 
